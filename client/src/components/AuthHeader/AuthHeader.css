@@ -1,0 +1,24 @@
+.logo {
+  transition: all 0.3s ease;
+  width: 230px;
+  font-size: 24px;
+  font-weight: 700;
+  /* height: 56px; */
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  color: var(--primary);
+  z-index: 500;
+  padding-bottom: 13px;
+  box-sizing: content-box;
+}
+.logo .logo-name span {
+  color: var(--dark);
+}
+
+.logo .bx {
+  min-width: 60px;
+  display: flex;
+  justify-content: center;
+  font-size: 2.2rem;
+}

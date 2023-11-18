@@ -1,0 +1,37 @@
+.__hidden,
+.__hidden_reverse {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.__hidden_reverse {
+  transform: translateX(100%);
+}
+
+.__hidden_bottom_to_top {
+  transform: translateY(100%);
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 0.5s;
+}
+
+.card__animate:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.card__animate:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.card__animate:nth-child(4) {
+  transition-delay: 600ms;
+}
+
+.__show,
+.__show_to_top {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
